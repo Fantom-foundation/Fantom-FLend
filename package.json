@@ -1,0 +1,26 @@
+{
+  "name": "fantom-defi-flend",
+  "version": "1.0.0",
+  "description": "Fantom DeFi implementation of fLend module.",
+  "main": "truffle-config.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fantom-foundation/Fantom-FLend.git"
+  },
+  "keywords": [
+    "Fantom",
+    "DeFi",
+    "fLend",
+    "Solidity"
+  ],
+  "author": "Fantom Foundation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fantom-foundation/Fantom-FLend/issues"
+  },
+  "homepage": "https://github.com/Fantom-foundation/Fantom-FLend#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1"
+  }
+}
