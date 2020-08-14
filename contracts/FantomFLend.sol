@@ -9,10 +9,10 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "./FantomCollateral.sol";
-import "./IPriceOracle.sol";
+import "./interfaces/IPriceOracle.sol";
 
 // FantomFLend implements the contract of core DeFi function
-// for lending and borrowing tokens againts a deposited collateral.
+// for lending and borrowing tokens against a deposited collateral.
 // The collateral management is linked from the Fantom Collateral
 // implementation.
 contract FantomFLend is Ownable, ReentrancyGuard, FantomCollateral {
@@ -66,7 +66,7 @@ contract FantomFLend is Ownable, ReentrancyGuard, FantomCollateral {
 
     // fLendFee returns the current value of the borrowing fee used
     // for lending operations.
-    // The value is returnd in 4 decimals; 25 = 0.0025 = 0.25%
+    // The value is returned in 4 decimals; 25 = 0.0025 = 0.25%
     function fLendFee() public pure returns (uint256) {
         return 25;
     }

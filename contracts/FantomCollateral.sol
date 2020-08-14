@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/utils/Address.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
-import "./IPriceOracle.sol";
+import "./interfaces/IPriceOracle.sol";
 
 // FantomCollateral implements a collateral pool
 // for the related Fantom DeFi contract. The collateral is used
